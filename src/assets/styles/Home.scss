@@ -1,0 +1,31 @@
+.home{
+    width: 100%;
+    padding: 80px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .home__title{
+        color: #1F2937;
+        font-size: 55px;
+    }
+    &__subtitle{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    svg{
+        transform: rotate(45deg);
+    }
+}
+.custom-statistic .ant-statistic-title {
+    display: block;
+    text-align: center;
+  }
+  
+  .custom-statistic .ant-statistic-content {
+    display: block;
+    text-align: center;
+    margin-top: 10px; /* Value ni pastga tushirish uchun */
+  }
+  
+  

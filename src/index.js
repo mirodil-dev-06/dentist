@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import 'antd/dist/reset.css'; // Ant Design stil faylini import qilish
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
